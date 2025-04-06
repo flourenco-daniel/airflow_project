@@ -1,107 +1,48 @@
-# airflow_project Documentation
+Overview
+========
 
-## Introduction
-This document outlines the setup and configuration of an Airflow project using Astro, along with additional components such as Spark, MinIO, and Metabase. The project is based on Mark Lamberti's course and includes various helpers, Spark integration, and a custom `docker-compose.override.yml` file.
+Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
 
-## Setting Up Astro
-Astro is the recommended way to create an Airflow environment. To get started, refer to the official documentation:
-[Astro Documentation - First DAG CLI](https://www.astronomer.io/docs/astro/first-dag-cli)
+Project Contents
+================
 
-## Docker-Compose Configuration
-The `docker-compose.yml` file defines the necessary services and their configurations.
+Your Astro project contains the following files and folders:
 
-### Services
+- dags: This folder contains the Python files for your Airflow DAGs. By default, this directory includes one example DAG:
+    - `example_astronauts`: This DAG shows a simple ETL pipeline example that queries the list of astronauts currently in space from the Open Notify API and prints a statement for each astronaut. The DAG uses the TaskFlow API to define tasks in Python, and dynamic task mapping to dynamically print a statement for each astronaut. For more on how this DAG works, see our [Getting started tutorial](https://www.astronomer.io/docs/learn/get-started-with-airflow).
+- Dockerfile: This file contains a versioned Astro Runtime Docker image that provides a differentiated Airflow experience. If you want to execute other commands or overrides at runtime, specify them here.
+- include: This folder contains any additional files that you want to include as part of your project. It is empty by default.
+- packages.txt: Install OS-level packages needed for your project by adding them to this file. It is empty by default.
+- requirements.txt: Install Python packages needed for your project by adding them to this file. It is empty by default.
+- plugins: Add custom or community plugins for your project to this file. It is empty by default.
+- airflow_settings.yaml: Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
 
-#### 1. **Airflow Components**
-- **Webserver**: Runs the Airflow UI.
-- **Scheduler**: Schedules and monitors DAG executions.
-- **Triggerer**: Handles task triggers.
+Deploy Your Project Locally
+===========================
 
-All these services are connected to the `ndsnet` network.
+1. Start Airflow on your local machine by running 'astro dev start'.
 
-#### 2. **MinIO**
-- **Image**: `minio/minio:RELEASE.2024-06-13T22-53-53Z`
-- **Ports**:
-  - `9000:9000` (Main MinIO service)
-  - `9001:9001` (MinIO Console UI)
-- **Environment Variables**:
-  - `MINIO_ROOT_USER`: `minio`
-  - `MINIO_ROOT_PASSWORD`: `minio123`
-- **Healthcheck**: Monitors the MinIO service to ensure availability.
+This command will spin up 4 Docker containers on your machine, each for a different Airflow component:
 
-#### 3. **Spark Cluster**
-- **Spark Master**:
-  - **Image**: `airflow/spark-master`
-  - **Ports**:
-    - `8082:8080` (Spark Web UI)
-    - `7077:7077` (Spark Master Node)
-  - **Environment Variables**:
-    - `INIT_DAEMON_STEP=setup_spark`
+- Postgres: Airflow's Metadata Database
+- Webserver: The Airflow component responsible for rendering the Airflow UI
+- Scheduler: The Airflow component responsible for monitoring and triggering tasks
+- Triggerer: The Airflow component responsible for triggering deferred tasks
 
-- **Spark Worker**:
-  - **Image**: `airflow/spark-worker`
-  - **Depends on**: Spark Master
-  - **Ports**:
-    - `8081:8081` (Spark Worker Web UI)
-  - **Environment Variables**:
-    - `SPARK_MASTER=spark://spark-master:7077`
+2. Verify that all 4 Docker containers were created by running 'docker ps'.
 
-#### 4. **Metabase**
-- **Image**: `metabase/metabase:v0.52.8.4`
-- **Ports**:
-  - `3000:3000` (Metabase UI)
-- **Volumes**:
-  - `./include/data/metabase:/metabase-data` (Persistent storage for Metabase configurations)
+Note: Running 'astro dev start' will start your project with the Airflow Webserver exposed at port 8080 and Postgres exposed at port 5432. If you already have either of those ports allocated, you can either [stop your existing Docker containers or change the port](https://www.astronomer.io/docs/astro/cli/troubleshoot-locally#ports-are-not-available-for-my-local-airflow-webserver).
 
-#### 5. **Docker Proxy**
-- **Image**: `alpine/socat`
-- **Command**:
-  - `"TCP4-LISTEN:2375,fork,reuseaddr UNIX-CONNECT:/var/run/docker.sock"`
-- **Ports**:
-  - `2376:2375` (Exposes the Docker socket to allow remote communication)
+3. Access the Airflow UI for your local Airflow project. To do so, go to http://localhost:8080/ and log in with 'admin' for both your Username and Password.
 
-### Network Configuration
-All services are connected to a custom Docker network:
-```yaml
-networks:
-  ndsnet:
-    driver: bridge
-```
-This ensures that all services can communicate securely within the same isolated network.
+You should also be able to access your Postgres Database at 'localhost:5432/postgres'.
 
-## Ensuring No Containers Are Running
-Before starting the project, ensure that no containers are running by executing the following command:
-```sh
-astro dev stop
-```
-If you receive the error message:
-```
-Error: failed to execute cmd: exit status 1
-```
-it means that no containers are currently running.
+Deploy Your Project to Astronomer
+=================================
 
-## Building the Spark Images
-Navigate to the `spark/master` directory and build the Spark Master image using the following command:
-```sh
-docker build -t airflow/spark-master .
-```
+If you have an Astronomer account, pushing code to a Deployment on Astronomer is simple. For deploying instructions, refer to Astronomer documentation: https://www.astronomer.io/docs/astro/deploy-code/
 
-Similarly, navigate to the `spark/worker` directory and build the Spark Worker image using:
-```sh
-docker build -t airflow/spark-worker .
-```
+Contact
+=======
 
-## Starting the Project
-Once all images are built, navigate to the root directory of the project and start the environment using:
-```sh
-astro dev start
-```
-
-## Summary
-This setup provides a robust Airflow environment with:
-- **Astro for Airflow orchestration**
-- **MinIO for object storage**
-- **Spark for big data processing**
-- **Metabase for data visualization**
-- **A Docker proxy for enhanced container communication**
-
+The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
