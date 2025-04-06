@@ -1,0 +1,84 @@
+[2025-04-06T19:04:40.630+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:04:40.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:04:40.647+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:04:40.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:04:40.679+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:04:40.755+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:04:40.755+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:04:40.813+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:04:40.812+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:04:40.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.231 seconds
+[2025-04-06T19:05:11.505+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:05:11.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:05:11.511+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:11.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:05:11.530+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:05:11.581+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:11.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:05:11.631+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:11.630+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:05:11.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.162 seconds
+[2025-04-06T19:05:42.557+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:05:42.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:05:42.562+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:42.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:05:42.578+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:05:42.619+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:42.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:05:42.655+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:42.655+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:05:42.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.139 seconds
+[2025-04-06T19:06:13.492+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:06:13.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:06:13.499+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:13.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:06:13.519+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:06:13.617+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:13.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:06:13.659+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:13.658+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:06:13.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.236 seconds
+[2025-04-06T19:06:44.376+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:06:44.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:06:44.382+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:44.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:06:44.396+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:06:44.432+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:44.431+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:06:44.470+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:44.470+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:06:44.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.138 seconds
+[2025-04-06T19:07:15.076+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:07:15.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:07:15.082+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:07:15.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:07:15.105+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:07:15.156+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:07:15.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:07:15.199+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:07:15.198+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:07:15.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.163 seconds
+[2025-04-06T19:07:45.781+0000] {processor.py:186} INFO - Started process (PID=283) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:07:45.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:07:45.787+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:07:45.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:07:45.802+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:07:45.858+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:07:45.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:07:45.922+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:07:45.921+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:07:45.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.178 seconds
+[2025-04-06T19:08:16.462+0000] {processor.py:186} INFO - Started process (PID=308) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:08:16.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:08:16.466+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:08:16.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:08:16.479+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:08:16.522+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:08:16.521+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:08:16.559+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:08:16.559+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:08:16.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.132 seconds
+[2025-04-06T19:10:32.875+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:10:32.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:10:32.879+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:10:32.878+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:10:32.892+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:10:32.975+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:10:32.975+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:10:33.015+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:10:33.014+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:10:33.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.188 seconds
+[2025-04-06T19:11:03.712+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:11:03.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:11:03.717+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:11:03.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:11:03.731+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:11:03.785+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:11:03.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:11:03.836+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:11:03.836+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:11:03.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.176 seconds
+[2025-04-06T19:11:34.453+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:11:34.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:11:34.457+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:11:34.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:11:34.473+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:11:34.533+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:11:34.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:11:34.592+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:11:34.592+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:11:34.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.184 seconds
+[2025-04-06T19:12:05.227+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:12:05.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/assignment_1.py for tasks to queue
+[2025-04-06T19:12:05.237+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:12:05.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:12:05.261+0000] {processor.py:925} INFO - DAG(s) 'random_number_checker' retrieved from /opt/airflow/dags/assignment_1.py
+[2025-04-06T19:12:05.328+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:12:05.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T19:12:05.374+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:12:05.373+0000] {dag.py:4180} INFO - Setting next_dagrun for random_number_checker to 2025-04-05 00:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T19:12:05.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/assignment_1.py took 0.202 seconds

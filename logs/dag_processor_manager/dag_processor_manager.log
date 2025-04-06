@@ -1200,3 +1200,164 @@ File Path                                          PID  Runtime      # DAGs    #
 /opt/airflow/dags/stock_market.py                 1550  0.01s             0           1  0.04s           2025-04-04T20:24:50                       5
 ================================================================================
 [2025-04-04T20:25:31.602+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-06T19:04:40.322+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-04-06T19:04:40.323+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-06T19:04:40.324+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-06T19:04:40.324+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-06T19:04:40.337+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-04-06T19:04:40.513+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/taskflow_before_decorators.py                           0           0                                                   0
+/opt/airflow/dags/taskflow_after_decorators.py                            0           0                                                   0
+/opt/airflow/dags/assignment_1_solution.py         182  0.06s             0           0                                                   0
+/opt/airflow/dags/stock_market.py                  179  0.07s             0           0                                                   0
+/opt/airflow/dags/assignment_1.py                                         0           0                                                   0
+================================================================================
+[2025-04-06T19:05:11.279+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/assignment_1_solution.py         207  0.01s             1           0  0.30s           2025-04-06T19:04:40                      12
+/opt/airflow/dags/assignment_1.py                                         1           0  0.27s           2025-04-06T19:04:40                      12
+/opt/airflow/dags/taskflow_before_decorators.py                           1           0  0.23s           2025-04-06T19:04:40                      12
+/opt/airflow/dags/taskflow_after_decorators.py                            1           0  0.23s           2025-04-06T19:04:41                      12
+/opt/airflow/dags/stock_market.py                  204  0.01s             0           1  0.16s           2025-04-06T19:04:40                       5
+================================================================================
+[2025-04-06T19:05:30.049+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-06T19:05:42.379+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-04-06T19:05:42.380+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-06T19:05:42.380+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-06T19:05:42.381+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-06T19:05:42.387+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-04-06T19:05:42.487+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/taskflow_before_decorators.py                           0           0                                                   0
+/opt/airflow/dags/taskflow_after_decorators.py                            0           0                                                   0
+/opt/airflow/dags/assignment_1_solution.py         178  0.02s             0           0                                                   0
+/opt/airflow/dags/stock_market.py                  175  0.03s             0           0                                                   0
+/opt/airflow/dags/assignment_1.py                                         0           0                                                   0
+================================================================================
+[2025-04-06T19:06:17.004+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/assignment_1_solution.py                                1           0  0.39s           2025-04-06T19:06:13                      12
+/opt/airflow/dags/taskflow_after_decorators.py                            1           0  0.28s           2025-04-06T19:06:14                      12
+/opt/airflow/dags/assignment_1.py                                         1           0  0.27s           2025-04-06T19:06:13                      12
+/opt/airflow/dags/taskflow_before_decorators.py                           1           0  0.22s           2025-04-06T19:06:13                      12
+/opt/airflow/dags/stock_market.py                                         0           1  0.12s           2025-04-06T19:06:13                       5
+================================================================================
+[2025-04-06T19:06:47.655+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/assignment_1_solution.py                                1           0  0.18s           2025-04-06T19:06:44                      12
+/opt/airflow/dags/assignment_1.py                                         1           0  0.17s           2025-04-06T19:06:44                      12
+/opt/airflow/dags/taskflow_before_decorators.py                           1           0  0.16s           2025-04-06T19:06:44                      12
+/opt/airflow/dags/taskflow_after_decorators.py                            1           0  0.16s           2025-04-06T19:06:44                      12
+/opt/airflow/dags/stock_market.py                                         0           1  0.09s           2025-04-06T19:06:44                       5
+================================================================================
+[2025-04-06T19:07:18.409+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/assignment_1_solution.py                                1           0  0.22s           2025-04-06T19:07:15                      12
+/opt/airflow/dags/taskflow_after_decorators.py                            1           0  0.21s           2025-04-06T19:07:15                      12
+/opt/airflow/dags/taskflow_before_decorators.py                           1           0  0.19s           2025-04-06T19:07:15                      12
+/opt/airflow/dags/assignment_1.py                                         1           0  0.19s           2025-04-06T19:07:15                      12
+/opt/airflow/dags/stock_market.py                                         0           1  0.11s           2025-04-06T19:07:15                       5
+================================================================================
+[2025-04-06T19:07:49.082+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/assignment_1_solution.py                                1           0  0.21s           2025-04-06T19:07:45                      12
+/opt/airflow/dags/assignment_1.py                                         1           0  0.20s           2025-04-06T19:07:45                      12
+/opt/airflow/dags/taskflow_before_decorators.py                           1           0  0.18s           2025-04-06T19:07:46                      12
+/opt/airflow/dags/taskflow_after_decorators.py                            1           0  0.16s           2025-04-06T19:07:46                      12
+/opt/airflow/dags/stock_market.py                                         0           1  0.12s           2025-04-06T19:07:45                       5
+================================================================================
+[2025-04-06T19:08:19.729+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/assignment_1_solution.py                                1           0  0.19s           2025-04-06T19:08:16                      12
+/opt/airflow/dags/taskflow_before_decorators.py                           1           0  0.16s           2025-04-06T19:08:16                      12
+/opt/airflow/dags/assignment_1.py                                         1           0  0.15s           2025-04-06T19:08:16                      12
+/opt/airflow/dags/taskflow_after_decorators.py                            1           0  0.15s           2025-04-06T19:08:16                      12
+/opt/airflow/dags/stock_market.py                                         0           1  0.11s           2025-04-06T19:08:16                       5
+================================================================================
+[2025-04-06T19:08:20.414+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-06T19:10:32.559+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-04-06T19:10:32.560+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-06T19:10:32.561+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-06T19:10:32.562+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-06T19:10:32.569+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-04-06T19:10:32.839+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/taskflow_before_decorators.py                           0           0                                                   0
+/opt/airflow/dags/taskflow_after_decorators.py                            0           0                                                   0
+/opt/airflow/dags/assignment_1_solution.py         178  0.12s             0           0                                                   0
+/opt/airflow/dags/stock_market.py                  175  0.14s             0           0                                                   0
+/opt/airflow/dags/assignment_1.py                                         0           0                                                   0
+================================================================================
+[2025-04-06T19:11:03.588+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/assignment_1_solution.py         203  0.00s             1           0  0.40s           2025-04-06T19:10:33                      12
+/opt/airflow/dags/assignment_1.py                                         1           0  0.22s           2025-04-06T19:10:33                      12
+/opt/airflow/dags/taskflow_before_decorators.py                           1           0  0.22s           2025-04-06T19:10:33                      12
+/opt/airflow/dags/taskflow_after_decorators.py                            1           0  0.20s           2025-04-06T19:10:33                      12
+/opt/airflow/dags/stock_market.py                  200  0.01s             0           1  0.15s           2025-04-06T19:10:32                       5
+================================================================================
+[2025-04-06T19:11:34.333+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/taskflow_before_decorators.py                           1           0  0.24s           2025-04-06T19:11:04                      12
+/opt/airflow/dags/assignment_1_solution.py         228  0.01s             1           0  0.22s           2025-04-06T19:11:03                      12
+/opt/airflow/dags/taskflow_after_decorators.py                            1           0  0.22s           2025-04-06T19:11:04                      12
+/opt/airflow/dags/assignment_1.py                                         1           0  0.21s           2025-04-06T19:11:03                      12
+/opt/airflow/dags/stock_market.py                  225  0.02s             0           1  0.10s           2025-04-06T19:11:03                       5
+================================================================================
+[2025-04-06T19:12:05.100+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/assignment_1_solution.py         253  0.00s             1           0  0.24s           2025-04-06T19:11:34                      12
+/opt/airflow/dags/assignment_1.py                                         1           0  0.21s           2025-04-06T19:11:34                      12
+/opt/airflow/dags/taskflow_before_decorators.py                           1           0  0.18s           2025-04-06T19:11:34                      12
+/opt/airflow/dags/taskflow_after_decorators.py                            1           0  0.17s           2025-04-06T19:11:34                      12
+/opt/airflow/dags/stock_market.py                  250  0.02s             0           1  0.12s           2025-04-06T19:11:34                       5
+================================================================================

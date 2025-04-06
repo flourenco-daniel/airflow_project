@@ -1,0 +1,168 @@
+[2025-04-06T19:04:40.478+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:04:40.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:04:40.487+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:04:40.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:04:40.538+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:04:40.527+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:04:40.539+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:04:40.590+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.125 seconds
+[2025-04-06T19:05:11.293+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:05:11.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:05:11.301+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:11.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:05:11.315+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:11.311+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:05:11.316+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:05:11.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.084 seconds
+[2025-04-06T19:05:42.474+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:05:42.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:05:42.479+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:42.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:05:42.487+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:05:42.483+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:05:42.488+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:05:42.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.056 seconds
+[2025-04-06T19:06:13.379+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:06:13.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:06:13.385+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:13.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:06:13.398+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:13.390+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:06:13.404+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:06:13.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.081 seconds
+[2025-04-06T19:06:44.272+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:06:44.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:06:44.276+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:44.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:06:44.281+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:06:44.280+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:06:44.282+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:06:44.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.063 seconds
+[2025-04-06T19:07:14.963+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:07:14.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:07:14.970+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:07:14.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:07:14.980+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:07:14.977+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:07:14.982+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:07:15.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.084 seconds
+[2025-04-06T19:07:45.662+0000] {processor.py:186} INFO - Started process (PID=275) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:07:45.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:07:45.671+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:07:45.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:07:45.683+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:07:45.680+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:07:45.685+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:07:45.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.089 seconds
+[2025-04-06T19:08:16.349+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:08:16.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:08:16.356+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:08:16.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:08:16.365+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:08:16.362+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:08:16.366+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:08:16.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.080 seconds
+[2025-04-06T19:10:32.719+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:10:32.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:10:32.726+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:10:32.725+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:10:32.743+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:10:32.740+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:10:32.748+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:10:32.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.123 seconds
+[2025-04-06T19:11:03.597+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:11:03.599+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:11:03.604+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:11:03.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:11:03.612+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:11:03.609+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:11:03.613+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:11:03.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.080 seconds
+[2025-04-06T19:11:34.342+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:11:34.344+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:11:34.351+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:11:34.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:11:34.365+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:11:34.361+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:11:34.366+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:11:34.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.089 seconds
+[2025-04-06T19:12:05.110+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/stock_market.py
+[2025-04-06T19:12:05.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market.py for tasks to queue
+[2025-04-06T19:12:05.116+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:12:05.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:12:05.126+0000] {logging_mixin.py:190} INFO - [2025-04-06T19:12:05.124+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/stock_market.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market.py", line 5, in <module>
+    from include.stock_market.tasks import _get_stock_prices, _store_prices
+ModuleNotFoundError: No module named 'include'
+[2025-04-06T19:12:05.128+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market.py
+[2025-04-06T19:12:05.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market.py took 0.079 seconds
