@@ -41,8 +41,24 @@ def stock_market():
         op_kwargs={'stock': '{{ ti.xcom_pull(task_ids="get_stock_prices") }}'}
     )
     
+    #i don't have spark installed. So, i create a image with spark dependencies and run a container with the image. So, i will run this task using the docker image with PySpark
+    format_prices = DockerOperator(
+        task_id='format_prices',
+        image='airflow/stock-app',
+        container_name='format_prices',
+        api_version='auto',
+        auto_remove='success', #we will remove the container after task run
+        docker_url='tcp://docker-proxy:2375', #is on docker compose
+        network_mode='container:spark-master',
+        tty=True,
+        xcom_all=False,
+        mount_tmp_dir=False,
+        environment={
+            'SPARK_APPLICATION_ARGS': '{{ti.xcom_pull(task_ids="store_prices")}}'
+        }
+    )
     
-    is_api_available() >> get_stock_prices >> store_prices
+    is_api_available() >> get_stock_prices >> store_prices >> format_prices
         
 
 stock_market()
